@@ -1,0 +1,142 @@
+html, body{
+	margin: 0;
+}
+nav ul li, nav ul{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+a:hover{
+	color:grey;
+}
+nav{
+	background-color: rgba(0,0,0,0.5);
+	height: 100px;
+	width: 100%;
+	color:white;
+	position: fixed;
+	font-size: 12px;
+	background: -webkit-gradient(top, bottom, color-stop(50%, rgba(28,28,28,1)), color-stop(72%, rgba(28,28,28,0.56)), color-stop(72%, rgba(19,19,19,0.56)), color-stop(100%, rgba(19,19,19,0)));
+background: -webkit-linear-gradient(top, rgba(28,28,28,1) 50%, rgba(28,28,28,0.56) 72%, rgba(19,19,19,0.56) 72%, rgba(19,19,19,0) 100%);
+background: -o-linear-gradient(top, rgba(28,28,28,1) 50%, rgba(28,28,28,0.56) 72%, rgba(19,19,19,0.56) 72%, rgba(19,19,19,0) 100%);
+background: -ms-linear-gradient(top, rgba(28,28,28,1) 50%, rgba(28,28,28,0.56) 72%, rgba(19,19,19,0.56) 72%, rgba(19,19,19,0) 100%);
+background: linear-gradient(to bottom, rgba(28,28,28,1) 50%, rgba(28,28,28,0.56) 72%, rgba(19,19,19,0.56) 72%, rgba(19,19,19,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', endColorstr='#131313', GradientType=1 );
+}
+.padre{
+	text-align: center;
+	padding-top: 25px;
+	float:right;
+}
+.logo{
+	float:left;
+	padding-top: 25px;
+	height: 30%;
+}
+nav ul li{
+	margin:0 20px 0 20px;
+}
+#portada{
+	height: 700px;
+	width: 100%;
+	background-color:green;
+	background-image:url("fondo.jpg");
+	background-size:cover;
+	text-align: center;
+	color:white;
+	
+
+}
+.naranjita{
+	padding: 10px 20px 10px 20px;
+	background-color: orange;
+	font-weight: bold;
+	transition:all .3s ease;
+}
+.naranjita:hover{
+	background-color: yellow;
+}
+.papa{
+	padding-top: 20%;
+}
+.cubierta{
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+.img{
+	background-image: url('fondo.jpg');
+	background-size: cover;
+	width: 400px;
+}
+.card{
+	display: inline-block;
+	/*width:100%;*/
+
+}
+h3{
+	font-weight: thin;
+	font-family: 'Lato', sans-serif;
+}
+h1{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 9rem;
+	font-weight: bold;
+}
+.play{
+	font-size: 3rem;
+	border:1px solid white;
+	padding: 10px;
+	border-radius: 50%;
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	transition:all 1s ease;
+}
+p{
+	width: 80%;
+	margin:0 auto;
+	margin-top: 50px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5rem;
+	font-weight: thin;
+}
+i{
+	margin-top: 20%;
+	margin-left: 5px;
+}
+.play:hover{
+	background: white;
+	border-color: black;
+	color:black;
+
+}
+#botones{
+	text-align: center;
+}
+#uno{
+	float: left;
+}
+#dos{
+	float: right;
+}
+.hijo{
+	margin: 50px 100px 0 100px;
+}
+.hijo span{
+	display: block;
+	margin-bottom: 20px;
+}
+@media (max-width: 600px){
+	#uno, #dos{
+		float: none;
+	}
+}
+@media (min-width: 1200px){
+	#portada{
+		height: 100vh;
+	}
+}
